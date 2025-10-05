@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Space tourism website</title>
+  </head>
+  <style>
+    body {
+      font-family: "Barlow Condensed", sans-serif;
+      background-image: url(assets/technology/background-technology-desktop.jpg);
+    }
+    .content{
+      display: flex;
+      gap: -10px;
+      justify-content: center;
+      margin-left: 180px;
+      margin-top: 50px;
+    }
+    .left-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .section-number {
+      color: rgba(255, 255, 255, 0.3);
+      font-size: 18px;
+      letter-spacing: 3px;
+      margin-bottom: 30px;
+      align-self: flex-start;
+    }
+    .section-number span{
+      color: white;
+    }
+    .title-top {
+        color: rgba(255, 255, 255, 0.6);
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 20px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      .big-text {
+        font-size: 40px;
+        font-weight: 300;
+        color: white;
+        margin-bottom: 40px;
+        line-height: 1;
+        font-family: 'Times New Roman', Times, serif;
+      }
+
+      .text {
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        line-height: 1.8;
+        max-width: 500px;
+        font-weight: 300;
+      }
+      .left{
+        margin-top: 120px;
+      }
+     .r img{
+      position: absolute;
+      width: 500px;
+      height: 500px;
+     
+
+     }
+     .r{
+      width: 500px;
+      height: 500px;
+      margin-left: 90px;
+     }
+     .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 30px;
+      }
+      .menu {
+        display: flex;
+        align-items: center;
+        gap: 35px;
+        backdrop-filter: blur(35px);
+        background-color: var(--custom-transparent-white);
+        width: 900px;
+        height: 85px;
+        margin-right: -10px;
+      }
+      .menu a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-family: "Barlow Condensed", sans-serif;
+      }
+      .div {
+        padding: 0 0 0 300px;
+        display: flex;
+        gap: 35px;
+        align-items: center;
+      }
+      .active p {
+        opacity: 70%;
+        font-size: 15px;
+      }
+      .active span {
+        opacity: none;
+        font-size: 20px;
+      }
+      
+      .active{
+        opacity: 100%;
+      }
+      .c .p{
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 40px;
+        color: white;
+        border: 1px solid white;
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .c{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+      }
+      .p-activer{
+        color: black;
+        background-color: white;
+        font-family: 'Segoe UI', sans-serif;
+        font-size: 40px;
+        border: 1px solid white;
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      
+  </style>
+  <body>
+    <div class="nav">
+      <img src="assets/shared/logo.svg" alt="" />
+      <div class="menu">
+        <div class="div">
+          <a href="index.html" class="active"
+            ><span>00</span>
+            <p>HOME</p></a
+          >
+          <a href="destination-moon.html" class="active"
+            ><span>01</span>
+            <p>DESTINATION</p></a
+          >
+          <a href="crew-engineer.html" class="active"
+            ><span>02</span>
+            <p>CREW</p></a
+          >
+          <a href="technology-vehicle.html" class="active"
+            ><span>03</span>
+            <p>TECHNOLOGY</p></a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="content">
+      <div class="c">
+        <a class="p" href="technology-vehicle.html">1</a>
+        <a class="p" href="technology-spaceport.html">2</a>
+        <a class="p-activer" href="technology-capsule.html">3</a>
+      </div>
+      <div class="left-section">
+        <div class="section-number">03 <span>SPACE LAUNCH 101</span></div>
+      </div>
+       <div class="left">
+        <div class="title-top">THE TEMINOLOGY...</div>
+        <div class="big-text">SPACE CAPSULE</div>
+        <div class="text">
+        A space capsule is an often-crewed spacecraft that uses a blunt-body reentry 
+  capsule to reenter the Earth's atmosphere without wings. Our capsule is where 
+  you'll spend your time during the flight. It includes a space gym, cinema, 
+  and plenty of other activities to keep you entertained.
+        
+      </div>
+    </div>
+      <div class="r">
+        <img src="assets/technology/image-space-capsule-landscape.jpg" alt="">
+      </div>
+    
+  </body>
+</html>
